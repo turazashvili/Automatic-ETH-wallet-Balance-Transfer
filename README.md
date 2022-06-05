@@ -6,7 +6,7 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+
 
 
 
@@ -44,12 +44,14 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]]
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+The project represents script allowing you create a loop of constant/automatic requests to your wallet withdrawing the balance. At this moment it does it for only native token of the chain you use: ETH, MATIC, BNB, AVAX etc.
 
-
-Use the `BLANK_README.md` to get started.
+There are multiple usecases for this:
+  1) You might need to redirect incoming transaction from multiple wallets to the main one.
+  2) You might need to protect your account and set up script when you are not using the wallet, and shutting the script off only when you need to      make some transactions and back on when you are done.
+  3) You might somehow disposed your private keys and want to protect other tokens you have on wallet. So emptying the wallet balance will prevent      scammers making any other transaction.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -66,36 +68,23 @@ Use the `BLANK_README.md` to get started.
 
 
 <!-- GETTING STARTED -->
-## Getting Started
-
-Copy or download the repository to your local machine.
-
-### Prerequisites
-
-
-* Web3
-  ```sh
-  pip install web3
-  ```
-
 ### Installation
 
 _Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
    git clone https://github.com/turazashvili/Automatic-ETH-wallet-Balance-Transfer.git
    ```
-3. Install Python
+2. Install Python
    Choose latest release for your OS https://www.python.org/downloads/
-4. Enter your Wallets and Key in `loop.py`
+3. Enter your Wallets and Key in `loop.py`
    ```py
    private_key = "<Your_Private_Key"
    pub_key ="<Your_wallet>"
    recipient_pub_key = "<Recipient_wallet>"
    ```
-5. Enter your gasPrice, gasLimit and chainId in `loop.py`
+4. Enter your gasPrice, gasLimit and chainId in `loop.py`
    ```py
     gasPrice = w3.toWei('30', 'gwei')
     gasLimit = 21000
@@ -110,7 +99,7 @@ _Below is an example of how you can instruct your audience on installing and set
      * [Binance](https://bscscan.com/gastracker)
      * [Avalanche]( https://snowtrace.io/gastracker)
 
-6. Run the script
+5. Run the script
    ```py
     python loop.py
    ```
@@ -122,6 +111,7 @@ _Below is an example of how you can instruct your audience on installing and set
 <!-- USAGE EXAMPLES -->
 ## Usage
 
+<img width="220" alt="image" src="https://user-images.githubusercontent.com/74835523/172040143-9e39478d-fc9c-4fe8-843c-bc27ecfeeea0.png">
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
