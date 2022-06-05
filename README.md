@@ -27,7 +27,6 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
@@ -36,7 +35,6 @@
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -93,7 +91,7 @@ _Below is an example of how you can instruct your audience on installing and set
     tx = {
             'chainId': 3,
    ```
-   You can find your chain ID here: https://chainlist.wtf/
+   You can find your chain ID here: https://chainlist.wtf/.<br></br>
    Your current required gasPrice in gwei here: 
      * [Ethereum](https://etherscan.io/gastracker)
      * [Polygon](https://polygonscan.com/gastracker)
