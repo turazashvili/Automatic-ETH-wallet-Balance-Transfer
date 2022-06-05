@@ -43,8 +43,6 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]]
-
 The project represents script allowing you create a loop of constant/automatic requests to your wallet withdrawing the balance. At this moment it does it for only native token of the chain you use: ETH, MATIC, BNB, AVAX etc.
 
 There are multiple usecases for this:
