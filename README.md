@@ -97,7 +97,13 @@ _Below is an example of how you can instruct your audience on installing and set
      * [Binance](https://bscscan.com/gastracker)
      * [Avalanche]( https://snowtrace.io/gastracker)
 
-5. Run the script
+5. Add the Endpoint for the chain you chose.
+   ```py
+   w3 = Web3(Web3.HTTPProvider(<Moralis or Infura_endpoint_link>)
+   ```
+   Visit https://moralis.io or https://infura.io/ or any other endpoint you can find.
+
+6. Run the script
    ```py
     python loop.py
    ```
